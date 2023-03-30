@@ -1,12 +1,7 @@
-<!-- 
-If you want to attach some badges, comment them out. You need to adapt the parts in [[ ]])
+[![test](https://github.com/Semptic/bandwidth-monitor/actions/workflows/test.yml/badge.svg)](https://github.com/Semptic/bandwidth-monitor/actions/workflows/test.yml)
+[![GitHub](https://img.shields.io/github/license/Semptic/bandwidth-monitor)](https://github.com/Semptic/bandwidth-monitor/blob/main/LICENSE)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Semptic/bandwidth-monitor)
 
-[![Crates.io](https://img.shields.io/crates/v/bandwidth-monitor?label=bandwidth-monitor)](https://crates.io/crates/bandwidth-monitor)
-[![Crates.io](https://img.shields.io/crates/v/bandwidth-monitor-lib?label=bandwidth-monitor-lib)](https://crates.io/crates/bandwidth-monitor-lib)
-[![GitHub](https://img.shields.io/github/license/[[user]]/bandwidth-monitor)](https://github.com/[[user]]/bandwidth-monitor/blob/main/LICENSE)
-![test](https://github.com/[[user]]/bandwidth-monitor/workflows/test/badge.svg)
-
--->
 
 # bandwidth-monitor
 
