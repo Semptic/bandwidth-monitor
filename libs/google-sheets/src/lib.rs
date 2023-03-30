@@ -1,5 +1,6 @@
 use log::{error, info};
 extern crate google_sheets4 as sheets4;
+use serde_json::json;
 use sheets4::api::{
     AddSheetRequest, BatchUpdateSpreadsheetRequest, Request, SheetProperties, ValueRange,
 };
@@ -102,7 +103,11 @@ impl Spreadsheet {
         // into the respective structure. Some of the parts shown here might not be applicable !
         // Values shown here are possibly random and not representative !
         let req = ValueRange {
-            values: Some(data),
+            values: Some(
+                data.iter()
+                    .map(|values| values.iter().map(|value| json!(value)).collect())
+                    .collect(),
+            ),
             ..Default::default()
         };
 
