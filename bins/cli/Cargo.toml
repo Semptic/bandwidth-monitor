@@ -22,7 +22,7 @@ tokio = { version = "1", features = ["full"] }
 bandwidth-monitor-google-sheets = { path = "../../libs/google-sheets", version = "*"  }
 bandwidth-monitor-ookla-speedtest = { path = "../../libs/ookla-speedtest", version = "*"  }
 
-clap = { version = "~4.1", features = ["derive"] }
+clap = { version = "~4.2", features = ["derive"] }
 clap-verbosity-flag = "~2.0"
 
 anyhow = "~1.0"
