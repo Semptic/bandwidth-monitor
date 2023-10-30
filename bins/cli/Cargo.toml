@@ -23,7 +23,7 @@ bandwidth-monitor-google-sheets = { path = "../../libs/google-sheets", version =
 bandwidth-monitor-ookla-speedtest = { path = "../../libs/ookla-speedtest", version = "*"  }
 
 clap = { version = "~4.3", features = ["derive"] }
-clap-verbosity-flag = "~2.0"
+clap-verbosity-flag = "~2.1"
 
 anyhow = "~1.0"
 
